@@ -6,6 +6,7 @@
 
 Does DiademV2 gathering until umbral weather happens, then gathers umbral node
 and goes fishing until umbral weather disappears.
+Added an option to avoid fishing and instead loop leaving and re-entering the Diadem to farm multiple node in a single Umbral window. This is de-activated by default, set DoFish to false to enable it.
 
 ********************************************************************************
 *                               Version 0.1.7                                  *
@@ -85,7 +86,7 @@ TargetType = 1
 -- Options : 0 | 1 | 2 | 3 (Option: 0 is don't use cannon, Option: 1 is any target, Option: 2 only sprites, Option: 3 is don't include sprites)
 
 PrioritizeUmbral = true
-DoFish = false -- If false will continuously leave and re-enter the diadem when finishing an Umbral Node to take advantage of the node reset, if true will go fish after finishing an Umbral Node while the window is up
+DoFish = true -- If false will continuously leave and re-enter the diadem when finishing an Umbral Node to take advantage of the node reset, if true will go fish after finishing an Umbral Node while the window is up
 
 CapGP = true 
 -- Bountiful Yield 2 (Min) | Bountiful Harvest 2 (Btn) [+x (based on gathering) to that hit on the node (only once)]
